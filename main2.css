@@ -1,0 +1,160 @@
+/* CSS Document */
+
+.socialBox {
+	text-align: center;
+	background-color: mediumseagreen;
+	width: 100%;
+	height: 500px;
+	padding-top:20px;
+	
+}
+
+.socialBoxHeading {
+	font-family: Georgia;
+	font-size: 50px;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-style: italic;
+	text-shadow: 5px 5px 10px grey;
+	color: white;
+}
+
+.smallSocialBox {
+	display:inline-block;
+	position:relative;
+	width: 15%;
+	margin: 20px;
+	height: 230px;
+	color: white;
+	text-align:center;
+	border: 3px solid white;
+	transition: 0.5s ease;
+}
+
+.SSB {
+	width:100%;
+	padding-top: 15%;
+	height:85%;
+}
+
+.smallSocialBox:hover {
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
+	border: 3px solid black;
+	color: black;
+}
+
+.smallSocialBox:hover .fa-twitter {
+	transition: 0.3s ease;
+	color: black;	
+}
+
+.smallSocialBox a{
+	color: inherit;
+	text-decoration: none;	
+}
+
+.SSBoxInfo {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:16px;
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+}
+
+/*.cardButton {
+	bottom: 10px;
+	height: 40px;
+	width: 90%;
+	display: inline-block;
+	background-color: blue;
+	margin: -50px;
+	z-index: 1;
+}*/
+	
+		
+.footerBarColumn a{
+	margin-right: 10px;	
+}
+
+
+.loginBox {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #fff;
+	text-align: left;
+	border: 1px solid grey;
+	width: 35%;
+	padding-left: 5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: inline-block;
+	margin-top: 10%;
+	background-color: dodgerBlue;
+	border-radius: 2px;
+	overflow: hidden;
+	min-height:280px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.loginBox, .loginBox input, .loginbox label {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: white;
+}
+
+.loginBox input {
+	border: 0;
+	width: 100%;
+	background-color:transparent;	
+}
+
+.underlinedBoxInput{
+	width: 80%;
+	background: none;
+	
+	border-bottom: 1px solid white;
+}
+
+#loginBtn {
+	padding: 10px;
+	color: white;
+	background-color: lightseagreen;
+	border-radius: 2px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 20%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#regBtn {
+	padding: 10px 20px;
+	text-decoration: none;
+	color: white;
+	background-color: tomato;
+	border-radius: 2px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 20%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.loginBody {
+	background-color: rgba(255,255,255,1);
+	padding-top: 25px;
+	padding-bottom: 100px;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	margin-left: 5%;
+	margin-right:5%;
+	border: 0.5px grey;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 2px;
+	width: 80%;
+	height: 500px;
+	text-align: center;
+	display: table;	
+}
