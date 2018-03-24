@@ -197,53 +197,11 @@ img.hover-shadow {
 }
 
 </style>
-<script>
-// Open the Modal
-function openModal() {
-  document.getElementById('myModal').style.display = "block";
-}
-
-// Close the Modal
-function closeModal() {
-  document.getElementById('myModal').style.display = "none";
-}
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
 
 
 
-<body style="background-image:url(nitimage.jpg); background: no-repeat cover; opacity: 0.90;
-    filter: alpha(opacity=50);" >
+
+<body style="background-color: #00CED1">
 
 <!-- TOP NAVBAR -->
 <div id="topNavBar">
@@ -341,75 +299,24 @@ function showSlides(n) {
 
 <div class="row">
   <div class="col-3">
-    <img src="pallav.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    <img style="border-radius:50%;" src="pallav.jpg"  class="hover-shadow">
 	<h3>Pallav Priyam</h3>
   </div>
   <div class="col-3">
-    <img src="cheif.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    <img style="border-radius:50%;" src="cheif.jpg" class="hover-shadow">
 	<h3>Prakhar Tiwari</h3>
   </div>
   <div class="col-3">
-    <img src="vasu.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    <img style="border-radius:50%;" src="vasu.jpg" class="hover-shadow">
 	<h3>Vasu Jain</h3>
   </div>
   <div class="col-3">
-    <img src="mukesh.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    <img style="border-radius:50%;" src="mukesh.jpg" class="hover-shadow">
 	<h3>Mukesh Sihag</h3>
   </div>
 </div> 
 </div>
-<!-- The Modal/Lightbox -->
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
 
-    <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="pallav.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-      <img src="cheif.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
-      <img src="vasu.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-      <img src="mukesh.jpg" style="width:100%">
-    </div>
-
-    <!-- Next/previous controls -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    <!-- Caption text -->
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-
-    <!-- Thumbnail image controls -->
-    <div class="column">
-      <img class="demo" src="pallav.jpg" onclick="currentSlide(1)" alt="Nature">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="cheif.jpg" onclick="currentSlide(2)" alt="Trolltunga">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="vasu.jpg" onclick="currentSlide(3)" alt="Mountains">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="mukesh.jpg" onclick="currentSlide(4)" alt="Lights">
-    </div>
-  </div>
-</div>
 
 </div>
 
