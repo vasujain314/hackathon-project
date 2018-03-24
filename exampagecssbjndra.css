@@ -1,0 +1,207 @@
+body{background-color:white;
+}
+ 
+ 
+ 
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* STYLE FOR EXAM NAME */
+.logo{
+position:fixed;
+top:49px;
+left:0px;
+width:140px;
+
+
+
+}
+#header{
+
+width:100%;
+height:155px;
+position:fixed;
+top:35px;
+left:135px;
+
+
+}
+img{
+height:155px;
+width:130px;
+}
+
+
+h1{
+font-size:29px;
+color:#232f3e;
+}
+
+
+#body{
+
+ margin-left:130px;
+ margin-right:130px;
+font-family:"lucida grande", tahoma, verdana, arial, sans-serif;
+font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;overflow:visible;
+ 
+ wordwrap:normal;	
+ font-size:19px;
+ 
+	
+}
+
+#nav2 ul {
+    list-style-type: none;
+    
+     padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    position:fixed;
+    width: 100%;
+	top:135px;
+	min-height:50px;
+    
+	
+}
+
+#nav2 li {
+    float: left;
+}
+
+#nav2 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav2 li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#nav2 .active {
+    background-color: #4CAF50;
+}
+
+#nav_footer ul {
+    list-style-type:none;
+    padding:0px;
+    overflow: hidden;
+    max-width:auto;
+	margin-right:0;
+	font-size :15px;
+	
+}
+
+#nav_footer li {
+    float: left;
+	padding:5px;
+	
+
+}
+
+#nav_footer a {
+    display: block;
+	background-color:green;
+    color: white;
+    text-align: center;
+    border-radius:5px;
+    text-decoration: none;
+	
+}
+
+#nav_footer a:hover {
+    background-color: #111;
+}
+
+#nav_footer a:active {
+    background-color: #4CAF50;
+}
+
+#body>.main_content{
+margin-top:300px;
+line-height:30px;
+}
+
+.distance{
+margin-top:80px;
+
+}
+
+
+.page_name{
+           Margin-left:130px;
+		  font-size: 35px;
+		  margin-top:15px;
+		  position:Fixed;
+		  color:white;
+		  
+
+}
+
+
+#header li{
+	list-style-type: none;
+    
+     padding: 15px;
+    overflow: hidden;
+	display:inline;
+	font-size: 17px;
+	
+	
+}
+#header ul{
+margin-top: 60px;
+margin-left:120px;
+
+}
+
+td{
+padding:20px 20px 20px 20px;
+
+-
+}
+
+
+.distance{
+	margin-top:80px;
+
+}
+
+#main_content {
+	font-size:20px;
+}
+#headerimg{
+	left:138px;
+	width:100%;
+	top:0px;
+}
+
+	
+
+}
+
+td{
+	padding-top:20px;
+}
+.main_content li{
+	padding-top:10px;
+}
+.main_content hr{
+		margin-top :50px;
+	}
+	
+@media only screen and (max-width: 600px) {
+    #nav2 li {
+        width: 100%;
+    }
+}
+	
+
+
+
